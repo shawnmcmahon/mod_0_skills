@@ -1,12 +1,12 @@
 instance: bartender
 
-attributes
+attributes:
 name = "John Smith";
 isTrained = true;
-wage = "5";
+wage = 5;
 crewType = "close";
 
-method
+method:
 The server was assigned a shift with the assign_shift method
 which referenced the value "John Smith" of the name
 attribute to assign the shift.
