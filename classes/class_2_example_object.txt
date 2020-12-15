@@ -1,0 +1,20 @@
+instance: bartender
+
+attribute:
+name = "John Smith";
+isTrained = true;
+wage = "5";
+crewType = "close";
+
+method:
+The server was assigned a shift with the assign_shift method
+which referenced the value "John Smith" of the name
+attribute to assign the shift.
+The verify_training method referenced the isTrained attribute
+to determine that John Smith did indeed have enough training
+to work by himself.
+We paid John Smith his hourly bartender wage of $5 with the
+initiate_compensation method and used the wage attribute
+to pay John the correct amount.
+We confirmed John was available to work by referencing the 
+crewType attribute with the confirm_availability method.
