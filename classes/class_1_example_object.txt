@@ -1,0 +1,18 @@
+instance: steak
+
+attributes:
+temperature = 145;
+menuType = "dinner";
+isServed = true;
+tableNumber = 6;
+
+methods:
+The grill_entree method increased the temperature attribute.
+The menuType attribute was modified by the close_menu method
+by switching the menuType from "Lunch" to "Dinner".
+We confirmed that the server has served the entree because
+we checked the isServed attribute returned true after we
+ran the serve_entree method.
+We confirmed which table we needed to clean the entrees from
+with clean_table method that referenced the tableNumber
+attribute.
