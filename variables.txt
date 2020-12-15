@@ -1,0 +1,10 @@
+var food = "fries";
+var is_delicious = true;
+food = "burger";
+var num2 = 4;
+var num7 = 40;
+var quotient = (num7 / num2);
+var songs = ["Happy", "Beat It", "Work"];
+var firstElement = songs.shift(); //firstElement == "Happy";
+console.log(songs); //should log ["Beat It", "Happy"];
+console.log(food.length); //should log 6.
