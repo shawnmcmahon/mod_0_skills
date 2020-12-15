@@ -1,0 +1,18 @@
+class: entree
+
+attributes:
+temperature (integer)
+menuType (string)
+isServed (boolean)
+tableNumber (integer)
+
+methods:
+grill_entree (Cooks the entree to the appropriate temperature
+value.)
+close_menu (Used to end the breakfast or lunch
+menus so only appropriate entrees are served.)
+serve_entree (Confirms the entree has been served to the
+customer by referencing the status of the isServed boolean.)
+clean_table (Uses the tableNumber attribute to reference
+which table needs to have the plates of entrees removed
+from the previous customers.)
