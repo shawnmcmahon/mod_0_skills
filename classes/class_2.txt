@@ -1,0 +1,18 @@
+class: server
+
+attributes:
+name (string)
+isTrained (boolean)
+wage (integer)
+crewType (string)
+
+method:
+assign_shift (References the name attribute to assign
+the correct name of the server for the schedule)
+verify_training (References the isTrained attribute to
+confirm it is true to make sure the server has
+enough help during their assigned shift.)
+initiate_compensation (References the wage attribute to
+confirm the server is being paid correctly.)
+confirm_availability (References the crewType attribute
+of each server to confirm they are available to work at that time.)
