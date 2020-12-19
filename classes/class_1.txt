@@ -16,3 +16,6 @@ customer by referencing the status of the isServed boolean.)(References the
 isServed attribute)
 confirm_ingredients_in_stock (Confirms all necessary are in stock so the
 kitchen is able to prepare the meal.)(References the ingredientsInStock attribute.)
+
+bake_entree (A method used by some entrees to increase the temperature
+attribute to bring it to the correct value in order for it to be served.)
