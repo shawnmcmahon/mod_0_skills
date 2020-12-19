@@ -16,3 +16,6 @@ initiate_compensation (References the wage attribute to
 confirm the server is being paid correctly.)
 confirm_availability (References the crewType attribute
 of each server to confirm they are available to work at that time.)
+
+increase_pay (Used to increase the wage attribute of the server once the
+isTrained attribute returns true.)
